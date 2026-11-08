@@ -1,0 +1,12 @@
+# Unpinned on purpose. After your first successful run, record versions with `pip freeze`
+# and report them in your write-up.
+torch
+transformers
+peft
+bitsandbytes
+accelerate
+openpyxl
+# analyze_results.ipynb
+pandas
+matplotlib
+ipykernel

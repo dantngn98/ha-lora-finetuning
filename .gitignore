@@ -1,0 +1,3 @@
+.venv/
+# trained LoRA adapters (too large for GitHub; recreate with train_lora.py)
+adapters/

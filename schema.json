@@ -1,0 +1,97 @@
+{
+  "primary_category": {
+    "sound_quality": "How sound itself is perceived (loudness, tone, feedback, distortion, own voice).",
+    "speech_understanding": "Difficulty understanding speech in a given setting.",
+    "connectivity": "Bluetooth, phone app, and streaming or accessory problems.",
+    "discomfort": "Physical comfort and fit in or on the ear.",
+    "battery_charging": "Battery life, charging, and charger problems.",
+    "performance_practicality": "Whether the device works, and day-to-day handling, cleaning, and appearance.",
+    "other": "Positive feedback, cost or service, unrelated questions, vague messages, and medical red flags."
+  },
+  "specific_issue": {
+    "sound_quality": {
+      "too_loud": "Sounds or overall volume uncomfortably loud.",
+      "too_soft": "Sounds too quiet; patient can barely hear. No description of a dead or failing device.",
+      "tinny_or_harsh": "Thin, sharp, high-pitched, or metallic tone.",
+      "muffled_or_boomy": "Dull, underwater, or bass-heavy tone.",
+      "own_voice_issue": "Patient's own voice sounds boomy, echoey, or odd.",
+      "feedback_whistling": "Whistling or squealing.",
+      "distortion_or_static": "Crackling, buzzing, static, or garbled sound.",
+      "background_noise_annoying": "Ambient noise itself is bothersome or overwhelming. The complaint is the noise, not understanding people.",
+      "other_sound_quality": "Sound quality complaint that fits none of the above."
+    },
+    "speech_understanding": {
+      "speech_in_noise": "Hard to understand people when there is background noise.",
+      "speech_in_quiet": "Hard to understand people in quiet settings.",
+      "phone_calls": "Hard to understand on calls. Not a dropout or connection problem.",
+      "tv_or_media": "Hard to understand speech on TV, movies, or other media.",
+      "soft_or_distant_voices": "Hard to hear quiet or far-away talkers.",
+      "other_speech": "Speech understanding complaint that fits none of the above."
+    },
+    "connectivity": {
+      "bluetooth_dropout": "Connection to phone cuts out or is unstable.",
+      "pairing_failure": "Cannot pair or re-pair with a device.",
+      "app_issue": "Companion app crashes, shows wrong information, or controls do not respond.",
+      "streaming_audio_quality": "Streamed audio is too quiet, distant, or poor compared with normal hearing.",
+      "other_connectivity": "Other accessory or streamer problem (TV streamer, remote microphone)."
+    },
+    "discomfort": {
+      "pain_or_pressure": "Pain, soreness, or pressure while wearing the device.",
+      "skin_irritation": "Itching, redness, or irritated skin.",
+      "loose_or_unstable_fit": "Device slips or falls out.",
+      "ear_fullness": "Generic plugged or full feeling in the ear. Not specifically about own voice.",
+      "other_discomfort": "Discomfort that fits none of the above."
+    },
+    "battery_charging": {
+      "short_battery_life": "Battery runs out sooner than expected.",
+      "charging_failure": "Device will not charge or charger shows an error.",
+      "charger_issue": "Seating, case, or charging-routine problem. Device itself may be fine.",
+      "unexpected_shutdown": "Device turns off while the indicator still shows charge.",
+      "other_battery": "Battery or charging issue that fits none of the above."
+    },
+    "performance_practicality": {
+      "device_not_working": "Device is dead, silent, or intermittently powering on.",
+      "moisture_or_wax_damage": "Problem attributed to moisture, sweat, or wax.",
+      "handling_difficulty": "Hard to insert, remove, or operate (dexterity, small parts).",
+      "cleaning_maintenance": "Questions or problems about cleaning, wax guards, or upkeep.",
+      "cosmetic_or_size": "Visibility, bulk, or appearance.",
+      "other_practicality": "Practical issue that fits none of the above."
+    },
+    "other": {
+      "positive_feedback_no_issue": "Positive message, no problem to solve.",
+      "cost_or_service": "Pricing, billing, appointment access, or warranty.",
+      "unrelated_to_device": "General hearing question or non-sudden tinnitus question. No red-flag symptoms.",
+      "sudden_hearing_change": "Abrupt change in hearing over the last days, especially in one ear. Red flag.",
+      "unclear_or_insufficient_info": "Too vague to assign a problem."
+    }
+  },
+  "situation": {
+    "quiet_home": "Quiet indoor setting at home.",
+    "noisy_restaurant_or_group": "Restaurant, party, or group conversation.",
+    "phone_call": "During a phone call.",
+    "tv_or_media": "TV, movies, music, or streamed media.",
+    "own_voice": "While the patient is speaking.",
+    "outdoors_or_weather": "Outdoors, wind, rain.",
+    "car_or_transit": "In a car or on public transit.",
+    "exercise_or_activity": "Exercise, chewing, or physical activity.",
+    "work_meeting_or_lecture": "Meeting, classroom, or lecture.",
+    "all_the_time": "Persistent regardless of setting.",
+    "not_stated": "Text does not indicate a setting."
+  },
+  "suggested_action": {
+    "adjust_programming": "Fix likely through fitting software: gain, noise management, feedback manager, streaming balance.",
+    "physical_fit_adjustment": "Fix likely through dome, earmold, tubing, vent, or seating change.",
+    "check_hardware_or_repair": "Device inspection, cleaning, repair, or replacement.",
+    "troubleshoot_connectivity": "Re-pairing, phone or app settings, updates.",
+    "user_education_or_counseling": "Usage habits, handling, expectations, or non-urgent questions.",
+    "administrative_followup": "Billing, scheduling, or warranty.",
+    "request_more_information": "Message too vague to act on.",
+    "escalate_medical": "Red flag. Needs clinician or medical evaluation.",
+    "no_action": "Nothing to do."
+  },
+  "urgency": {
+    "routine": "Comfort, preference, or optimization. No loss of function.",
+    "soon": "Device not functioning, or patient has stopped wearing it. Resolve within days.",
+    "urgent": "Possible medical red flag (sudden hearing change, severe pain, dizziness, discharge or bleeding). Must pair with escalate_medical."
+  }
+}

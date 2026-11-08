@@ -1,0 +1,53 @@
+{
+  "n": 12,
+  "valid_json": 12,
+  "schema_valid": 6,
+  "exact_match_all_fields": 5,
+  "fields": {
+    "primary_category": {
+      "correct": 9,
+      "n": 12,
+      "seen_label_correct": 9,
+      "seen_label_n": 12,
+      "unseen_label_correct": 0,
+      "unseen_label_n": 0
+    },
+    "specific_issue": {
+      "correct": 7,
+      "n": 12,
+      "seen_label_correct": 7,
+      "seen_label_n": 12,
+      "unseen_label_correct": 0,
+      "unseen_label_n": 0
+    },
+    "situation": {
+      "correct": 11,
+      "n": 12,
+      "seen_label_correct": 11,
+      "seen_label_n": 12,
+      "unseen_label_correct": 0,
+      "unseen_label_n": 0
+    },
+    "suggested_action": {
+      "correct": 11,
+      "n": 12,
+      "seen_label_correct": 11,
+      "seen_label_n": 12,
+      "unseen_label_correct": 0,
+      "unseen_label_n": 0
+    },
+    "urgency": {
+      "correct": 12,
+      "n": 12,
+      "seen_label_correct": 12,
+      "seen_label_n": 12,
+      "unseen_label_correct": 0,
+      "unseen_label_n": 0
+    }
+  },
+  "mode": "finetuned",
+  "model": "meta-llama/Llama-3.1-8B + adapters/seed42",
+  "avg_prompt_tokens": 30.4,
+  "avg_seconds_per_example": 7.41,
+  "k_shots": 0
+}
