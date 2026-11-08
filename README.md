@@ -160,9 +160,6 @@ Additional adapters you evaluate (for example a `finetuned_seed7` run) show up a
 - The fine-tuned model is roughly level with few-shot on accuracy, but half its outputs contain a label that
   isn't in the schema (for example `restaurant_or_group` instead of `noisy_restaurant_or_group`), because it
   never sees the list of allowed labels.
-- With 12 test rows, one row is about 8 percentage points, so small differences are noise.
-- Every test label also appears in the training set, so these results don't show how the models handle a
-  label they've never seen.
 
 ## Notes
 
